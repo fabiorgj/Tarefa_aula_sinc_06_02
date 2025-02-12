@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "Fabio Rocha",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 17.2, "left": 124.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-19.2", "v-35.15" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h23.06", "v25.45" ] ],
+    [ "servo1:PWM", "pico:GP22", "orange", [ "h-28.8", "v32.25" ] ]
+  ],
+  "dependencies": {}
+}
