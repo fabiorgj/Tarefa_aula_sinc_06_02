@@ -1,18 +1,29 @@
-Controle de PWM na Raspberry Pi Pico W
+Embarcatech  
+
+Tarefa da aula síncrona do dia 06/02/2025  
+
+Aluno: Fábio Rocha Gomes Jardim  
+
+Matrícula: TIC370100723  
+
+
+# Controle de PWM na Raspberry Pi Pico W
+
+## 🎬 Vídeo
+
+O vídeo da atividade pode ser assistido no drive: [Link do vídeo](https://drive.google.com/file/d/1D_gU8s0DD5AXJANPGSaPp9UO3t2wsQHt/view?usp=sharing)
 
 ## 📌 Descrição
 
-Este projeto implementa um controle de PWM na Raspberry Pi Pico W, variando o duty cycle entre 2,5% e 12% de forma contínua. A frequência do sinal PWM é de 50 Hz, sendo ideal para o controle de servomotores.
+Este projeto implementa um controle de PWM na Raspberry Pi Pico W, variando o duty cycle entre 2,5% e 12%, primeiro, de maneira discreta com os valores 12%, 7,35% e 2,5% e em seguida de forma contínua. A frequência aplicada ao sinal PWM foi de 50 Hz. O sinal PWM foi aplicado a um servo motor usando o Wokwi, **integrado ao VS Code**, como plataforma de simulação.
 
 ## 🛠 Simulação no Wokwi
 
-Raspberry Pi Pico W
+No Wokwi foi utilizado uma Raspberry Pi Pico W e um servo motor genérico, conectados conforme ilustradoa seguir 
 
-Servomotor (opcional, para testes práticos)
+![diagrama wokwi](https://github.com/fabiorgj/Tarefa_aula_sinc_06_02/blob/main/diagramawokwi.png)
 
-Fonte de alimentação compatível
-
-Jumpers e protoboard (para conexões)
+A simulação pode ser feita no Wokwi web, clicando aqui: https://wokwi.com/projects/422627103776578561
 
 ## 🔧 Configuração do PWM
 
