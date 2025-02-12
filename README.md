@@ -25,6 +25,10 @@ No Wokwi foi utilizado uma Raspberry Pi Pico W e um servo motor genérico, conec
 
 A simulação pode ser feita no Wokwi web, clicando aqui: https://wokwi.com/projects/422627103776578561
 
+## 📱 O que foi observado na BitdogLab?
+
+Para utilização na BitDogLab o GPIO foi alterado para o 12, conforme requisito da tarefa, isso fez com que o LED azul do RGB variasse sutilmente o brilho, seguindo a variação de 2,5 a 12% do duty cyclye.
+
 ## 🔧 Configuração do PWM
 
 Pino de saída: GP22
